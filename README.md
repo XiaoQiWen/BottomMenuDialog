@@ -1,0 +1,2 @@
+# BottomMenuDialog
+采用BottomSheetDialogFragment and BottomSheetDialog 简易封装的底部菜单控件，使用极其方便
