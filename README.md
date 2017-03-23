@@ -17,7 +17,7 @@ BottomMenuDialog dialog = new BottomMenuDialog.BottomMenuBuilder()
                 .addItem("取消",null).build();
         dialog.show(getSupportFragmentManager());
 ```
-图片:![](https://github.com/XiaoQiWen/BottomMenuDialog/img/demo.png)  
+图片:![](https://github.com/XiaoQiWen/BottomMenuDialog/tree/master/img/demo.png)  
 ## 直接贴代码,只有两个类,无资源文件
 
 ### 一、BottomSheetDialog
