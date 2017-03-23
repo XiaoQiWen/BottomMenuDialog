@@ -1,9 +1,27 @@
 # BottomMenuDialog
 采用BottomSheetDialogFragment and BottomSheetDialog 简易封装的底部菜单控件，使用极其方便
+#### 使用方法也极其简单
+```
+BottomMenuDialog dialog = new BottomMenuDialog.BottomMenuBuilder()
+                .addItem("拍照", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        
+                    }
+                })
+                .addItem("相册中选择", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                    }
+                })
+                .addItem("取消",null).build();
+        dialog.show(getSupportFragmentManager());
+```
+图片:
 ## 直接贴代码,只有两个类,无资源文件
 
 ### 一、BottomSheetDialog
-
+```
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
@@ -328,3 +346,6 @@ public class BottomMenuDialog extends BottomSheetDialogFragment implements View.
     }
 
 }
+```
+#### 如果对你有帮助，直接copy上面2个类的代码到您的项目即可，谢谢支持
+    
