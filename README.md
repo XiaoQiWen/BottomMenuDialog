@@ -77,8 +77,9 @@ public class BottomSheetDialog extends android.support.design.widget.BottomSheet
         return statusBarHeight;
     }
 }
-
+```
 ### 二、import android.annotation.SuppressLint;
+```
 import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Color;
